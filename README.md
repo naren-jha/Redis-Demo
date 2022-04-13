@@ -56,8 +56,6 @@ Once Redis is running, you can test it by running redis-cli:
 * Jedis
   - Not thread safe; Need to create connection pool
   - supports cluster
-  - capable of synchronous, asynchronous, and reactive interaction with the cluster
-  - relatively difficult to use
   - capable of only synchronous interaction
   - relatively easy to use
 
