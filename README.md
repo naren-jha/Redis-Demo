@@ -21,6 +21,7 @@ Once Redis is running, you can test it by running redis-cli:
 * **set mykey somevalue**
 * **flushdb**
 * **info stats**
+* **info memory**
 
 ## Doc:
 * https://redis.io/docs/getting-started/ 
