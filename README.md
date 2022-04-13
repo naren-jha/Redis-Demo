@@ -51,7 +51,7 @@ Once Redis is running, you can test it by running redis-cli:
   - capable of synchronous, asynchronous, and reactive interaction with the cluster
   - relatively difficult to use
 
-* Lettuce
+* Jedis
   - Not thread safe; Need to create connection pool
   - supports cluser
   - capable of synchronous, asynchronous, and reactive interaction with the cluster
