@@ -4,6 +4,9 @@
 Other videos
 * https://youtu.be/cVdQIWpuZk8
 * https://youtu.be/p8mK8GBCARE
+* https://www.youtube.com/channel/UCD78lHSwYqMlyetR0_P4Vig
+* https://youtu.be/GEg7s3i6Jak
+* https://youtu.be/3WOfXRjYnGA
 
 
 ## Redis runbook
