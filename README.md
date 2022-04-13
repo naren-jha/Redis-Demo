@@ -48,15 +48,20 @@ Once Redis is running, you can test it by running redis-cli:
 ## Jedis vs Lettuce
 * Lettuce
   - Thread safe
-  - supports cluser
+  - supports cluster
   - capable of synchronous, asynchronous, and reactive interaction with the cluster
   - relatively difficult to use
 
 * Jedis
   - Not thread safe; Need to create connection pool
-  - supports cluser
+  - supports cluster
   - capable of synchronous, asynchronous, and reactive interaction with the cluster
   - relatively difficult to use
   - capable of only synchronous interaction
   - relatively easy to use
 * https://redis.com/blog/jedis-vs-lettuce-an-exploration/
+
+
+## Clustering
+* https://redis.io/docs/reference/cluster-spec/
+* https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#cluster
