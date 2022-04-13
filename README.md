@@ -1,5 +1,6 @@
 # Redis-Demo
 * https://youtu.be/PpkPTviLTLs
+* https://youtu.be/cVdQIWpuZk8
 
 
 ## Redis runbook
@@ -18,6 +19,7 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 Once Redis is running, you can test it by running redis-cli:
 * **redis-cli**
 * **set mykey somevalue**
+* **flushdb**
 
 ## Doc:
 * https://redis.io/docs/getting-started/ 
