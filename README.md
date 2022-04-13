@@ -11,7 +11,6 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 * **brew services stop redis** 
 * **brew services info redis** : check status
 
--------------
 * https://youtu.be/PpkPTviLTLs
 
 
