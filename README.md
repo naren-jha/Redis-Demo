@@ -1,4 +1,6 @@
 # Redis-Demo
+* https://youtu.be/PpkPTviLTLs
+
 
 ## Redis runbook
 
@@ -10,8 +12,6 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 * **brew services start redis** : same as above command
 * **brew services stop redis** 
 * **brew services info redis** : check status
-
-* https://youtu.be/PpkPTviLTLs
 
 
 ### Connect to Redis:
