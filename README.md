@@ -59,4 +59,4 @@ Once Redis is running, you can test it by running redis-cli:
   - relatively difficult to use
   - capable of only synchronous interaction
   - relatively easy to use
-https://redis.com/blog/jedis-vs-lettuce-an-exploration/
+* https://redis.com/blog/jedis-vs-lettuce-an-exploration/
