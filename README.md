@@ -17,6 +17,7 @@ Once Redis is running, you can test it by running redis-cli:
 * **redis-cli**
 * **set mykey somevalue**
 
-https://redis.io/docs/getting-started/ 
-https://redis.io/docs/ 
+# Doc:
+* https://redis.io/docs/getting-started/ 
+* https://redis.io/docs/ 
 
