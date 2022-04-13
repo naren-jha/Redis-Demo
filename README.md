@@ -1,8 +1,9 @@
 # Redis-Demo
 * https://youtu.be/PpkPTviLTLs
 
-Other related videos
+Other videos
 * https://youtu.be/cVdQIWpuZk8
+* https://youtu.be/p8mK8GBCARE
 
 
 ## Redis runbook
