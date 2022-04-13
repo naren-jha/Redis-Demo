@@ -13,7 +13,6 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 
 -------------
 * https://youtu.be/PpkPTviLTLs
-* https://youtu.be/oRGqCz8OLcM
 
 
 ### Connect to Redis:
