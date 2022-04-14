@@ -47,6 +47,7 @@ Once Redis is running, you can test it by running redis-cli:
 
 ## Jedis vs Lettuce
 * https://redis.com/blog/jedis-vs-lettuce-an-exploration/
+* https://iamvishalkhare.medium.com/create-a-redis-cluster-faa89c5a6bb4
 * Lettuce
   - Thread safe
   - supports cluster
@@ -65,7 +66,8 @@ Once Redis is running, you can test it by running redis-cli:
 * https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#cluster
 
 
-## Running redis cluster
+## Creating and running a redis cluster
+* https://wp.huangshiyang.com/creating-and-using-a-redis-cluster
 * mkdir cluster-test
 * cd cluster-test
 * mkdir 7000 7001 7002 7003 7004 7005
