@@ -41,11 +41,6 @@ public class RedisConfig {
 
     @Bean
     public JedisConnectionFactory jedisConnectionFactory() {
-        RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
-        redisStandaloneConfiguration.setHostName("127.0.0.1");
-        redisStandaloneConfiguration.setPort(6379);
-        //redisStandaloneConfiguration.setPassword("password");
-
         JedisConnectionFactory jedisConnectionFactory = new JedisConnectionFactory(new RedisClusterConfiguration(clusterProperties.getNodes()));
         // here we can set attributes for jedisConnectionFactory - like maxPoolSize, timeouts, etc
         return jedisConnectionFactory;
