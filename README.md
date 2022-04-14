@@ -45,6 +45,7 @@ Once Redis is running, you can test it by running redis command line interface 
 ## Doc:
 * https://redis.io/docs/getting-started/ 
 * https://redis.io/docs/ 
+* https://docs.spring.io/spring-data/redis/docs/current/api/org/springframework/data/redis/core/RedisTemplate.html
 
 
 ## Jedis vs Lettuce
