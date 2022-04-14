@@ -63,3 +63,32 @@ Once Redis is running, you can test it by running redis-cli:
 ## Clustering
 * https://redis.io/docs/reference/cluster-spec/
 * https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#cluster
+
+
+## Running redis cluster
+* mkdir cluster-test
+* cd cluster-test
+* mkdir 7000 7001 7002 7003 7004 7005
+* cd 7000
+* touch redis.conf
+* then edit and add following content to the redis.conf file
+```
+port 7000
+cluster-enabled yes
+cluster-config-file nodes.conf
+cluster-node-timeout 5000
+appendonly yes
+```
+* then copy the file to all other folders (7001 .. 7005) and change the port accordingly
+* ![image](https://user-images.githubusercontent.com/58611230/163294743-28c07974-0c3d-46c8-8314-b3e595289145.png)
+
+* copy **/usr/local/Cellar/redis/6.2.6/bin/redis-server** and paste it in **cluster-test** folder that we created in the first step
+* open 7 tabs in a separate command window
+* in 6 tabs go to folders (7000 .. 7005) and run **../redis-server ./redis.conf**
+* ![image](https://user-images.githubusercontent.com/58611230/163295308-c4b19287-da54-448d-a193-c7b4da7fdd63.png)
+
+* in the 7th tab run **redis-cli --cluster create 127.0.0.1:7000 127.0.0.1:7001 127.0.0.1:7002 127.0.0.1:7003 127.0.0.1:7004 127.0.0.1:7005 --cluster-replicas 1**
+* type **yes** to confirm 
+* your redis cluster should be up and running and it should look something like below -
+* ![image](https://user-images.githubusercontent.com/58611230/163295267-bbadb002-7468-4414-bf9b-c22c0d03b2cf.png)
+
