@@ -115,6 +115,9 @@ public class RedisConfig {
         return clusterNodes;
     }
 
+    // https://github.com/huangjian888/jeeweb-mybatis-springboot/blob/v2.0-master/jeeweb-common-core/src/main/java/cn/jeeweb/core/config/RedisConfig.java#L126
+    // https://github.com/huangjian888/jeeweb-mybatis-springboot/search?p=2&q=RedisTemplate
+
     // RedisTemplate remains unchanged irrespective of the mode
     @Bean
     public RedisTemplate<String, Object> redisTemplate() {

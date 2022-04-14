@@ -15,6 +15,18 @@ public class UserDaoImpl implements UserDao {
 
     private static final String KEY = "USER";
 
+    // https://github.com/huangjian888/jeeweb-mybatis-springboot/search?p=2&q=RedisTemplate
+    //redisTemplate.opsForCluster()
+    //redisTemplate.opsForValue()
+
+    // https://github.com/huangjian888/jeeweb-mybatis-springboot/blob/22926faf93f960e02da4a1cad36ed7d8f980b399/x-restful/x-business-service/src/main/java/com/company/shop/sys/service/support/redis/RedisHelper.java
+    //redisTemplate.boundHashOps(key).put(field, value);
+    //redisTemplate.boundHashOps(key).get(field);
+
+    // https://github.com/huangjian888/jeeweb-mybatis-springboot/blob/22926faf93f960e02da4a1cad36ed7d8f980b399/x-restful/x-business-goods/src/main/java/com/company/business/goods/support/redis/RedisHelper.java
+    //redisTemplate.boundValueOps(key).get();
+    //redisTemplate.boundValueOps(key).set(value);
+
     @Override
     public boolean saveUser(User user) {
         try {
