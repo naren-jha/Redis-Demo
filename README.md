@@ -27,7 +27,7 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 * **brew install redis** 
 * **redis-server** : to start redis in master slave mode
 
-* **brew services start redis** : same as above command
+* **brew services start redis** : same as above 
 * **brew services stop redis** 
 * **brew services info redis** : check status
 
