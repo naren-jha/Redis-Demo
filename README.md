@@ -33,7 +33,7 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 
 
 ### Connect to Redis:
-Once Redis is running, you can test it by running redis-cli:
+Once Redis is running, you can test it by running redis command line interface (CLI):
 * **redis-cli**
 * keys *
 * **set mykey somevalue**
@@ -95,4 +95,4 @@ appendonly yes
 * type **yes** to confirm 
 * your redis cluster should be up and running and it should look something like below -
 * ![image](https://user-images.githubusercontent.com/58611230/163295267-bbadb002-7468-4414-bf9b-c22c0d03b2cf.png)
-* Now run cli **redis-cli -c -p 7001** for different ports and then execute commands as usual
+* Now run redis CLI **redis-cli -c -p 7001** for different ports and then execute commands as usual
