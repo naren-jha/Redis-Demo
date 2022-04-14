@@ -95,4 +95,4 @@ appendonly yes
 * type **yes** to confirm 
 * your redis cluster should be up and running and it should look something like below -
 * ![image](https://user-images.githubusercontent.com/58611230/163295267-bbadb002-7468-4414-bf9b-c22c0d03b2cf.png)
-* Now run cli **./src/redis-cli -c -p 7001** for different ports and then execute commands as usual
+* Now run cli **redis-cli -c -p 7001** for different ports and then execute commands as usual
