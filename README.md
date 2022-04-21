@@ -32,8 +32,8 @@ https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
 * **brew services info redis** : check status
 
 
-### Connect to Redis:
-Once Redis is running, you can test it by running redis command line interface (CLI):
+### Redis Cli
+Once Redis is up and running, you can test things by running redis command line interface (CLI):
 * **redis-cli**
 * keys *
 * **set mykey somevalue**
