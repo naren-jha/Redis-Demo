@@ -2,7 +2,7 @@
 * https://youtu.be/PpkPTviLTLs
 * https://spring.io/projects/spring-data-redis
 
-Other videos
+Other videos to watch
 * https://youtu.be/cVdQIWpuZk8
 * https://youtu.be/p8mK8GBCARE
 * https://youtu.be/GEg7s3i6Jak
