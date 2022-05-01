@@ -102,7 +102,7 @@ appendonly yes
 ## Testing
 #### Curl
 
-* Add a user
+Add A User:
 
 ```javascript
 curl --location --request POST 'localhost:8081/user/' \
@@ -115,5 +115,11 @@ curl --location --request POST 'localhost:8081/user/' \
     "age": 35
 }'
 ```
+
+<img width="836" alt="image" src="https://user-images.githubusercontent.com/58611230/166149604-d754964c-1a03-448f-9d98-5d0c9897e96a.png">
+
+Verify:
+
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/58611230/166149632-65f965d6-8362-4bed-b352-3fbd5db987d9.png">
 
 
