@@ -120,6 +120,6 @@ curl --location --request POST 'localhost:8081/user/' \
 
 Verify:
 
-<img width="755" alt="image" src="https://user-images.githubusercontent.com/58611230/166149632-65f965d6-8362-4bed-b352-3fbd5db987d9.png">
+<img width="759" alt="image" src="https://user-images.githubusercontent.com/58611230/166149697-cfcdbb3b-6ea2-4d02-b137-7e857509b748.png">
 
 
