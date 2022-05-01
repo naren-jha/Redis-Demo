@@ -97,3 +97,23 @@ appendonly yes
 * your redis cluster should be up and running and it should look something like below -
 * ![image](https://user-images.githubusercontent.com/58611230/163295267-bbadb002-7468-4414-bf9b-c22c0d03b2cf.png)
 * Now run redis CLI **redis-cli -c -p 7001** for different ports and then execute commands as usual
+
+
+## Testing
+#### Curl
+
+* Add a user
+
+```javascript
+curl --location --request POST 'localhost:8081/user/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id": 1,
+    "firstName": "tall",
+    "lastName": "guy",
+    "email": "tall.guy@gmail.com",
+    "age": 35
+}'
+```
+
+
