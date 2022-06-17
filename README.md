@@ -1,4 +1,6 @@
 # Redis-Demo
+
+## Videos
 * https://youtu.be/PpkPTviLTLs
 * https://spring.io/projects/spring-data-redis
 
@@ -24,23 +26,23 @@ Other videos to watch
 
 https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/ 
 
-* **brew install redis** 
-* **redis-server** : to start redis in master slave mode
+* **`brew install redis`**
+* **`redis-server`** : to start redis in master slave mode
 
-* **brew services start redis** : same as above 
-* **brew services stop redis** 
-* **brew services info redis** : check status
+* **`brew services start redis`** : same as above 
+* **`brew services stop redis`** 
+* **`brew services info redis`** : check status
 
 
 ### Redis Cli
 Once Redis is up and running, you can test things by running redis command line interface (CLI):
-* **redis-cli**
-* keys *
-* **set mykey somevalue**
-* **get mykey**
-* **flushdb**
-* **info stats**
-* **info memory**
+* **`redis-cli`**
+* `keys *`
+* **`set mykey somevalue`**
+* **`get mykey`**
+* **`flushdb`**
+* **`info stats`**
+* **`info memory`**
 
 ## Doc:
 * https://redis.io/docs/getting-started/ 
