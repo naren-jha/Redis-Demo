@@ -1,10 +1,11 @@
 # Redis-Demo
 
-## Videos
-* https://youtu.be/PpkPTviLTLs
+## Courses and docs
+* https://university.redis.com/
 * https://spring.io/projects/spring-data-redis
 
-Other videos to watch
+## Youtube videos
+* https://youtu.be/PpkPTviLTLs
 * https://youtu.be/cVdQIWpuZk8
 * https://youtu.be/p8mK8GBCARE
 * https://youtu.be/GEg7s3i6Jak
