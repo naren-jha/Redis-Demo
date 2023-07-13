@@ -1,7 +1,13 @@
 # Redis-Demo
 
 ## Courses and docs
-* https://university.redis.com/
+* https://university.redis.com/dashboard
+* https://university.redis.com/courses/course-v1:redislabs+RU101+2022_13/course/
+* https://university.redis.com/courses/course-v1:redislabs+RU102J+2022_12/course/
+* =====
+* https://redis.io/docs/data-types/hashes/
+* https://redis.io/commands/?group=hash
+* =====
 * https://spring.io/projects/spring-data-redis
 * https://www.youtube.com/@Redisinc
 
